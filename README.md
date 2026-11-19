@@ -1,10 +1,10 @@
-# Doodle Baseball Bot
+# Google Doodle Baseball Bot
 
-A vision-only bot for the Google Doodle 2019 July 4th baseball game. It watches the screen, finds the ball with a small YOLO model, and times each swing with a learned model (v12.7). Best game: 3,878 runs, played over about 3.6 hours. The on-screen scoreboard stops at 999.
+A vision-only bot for the Google Doodle 2019 July 4th baseball game ([See it here](https://www.google.com/logos/2019/july4th19/r6/july4th19.html?hl=en&origin=www.google.com)). It watches the screen, finds the ball with a small YOLO model, and times each swing with a learned model (v12.7). Best game: 3,878 runs, played over about 3.6 hours. The on-screen scoreboard stops at 999.
 
 ## Setup
 
-Python 3.14 is what it was built on.
+Built on Python 3.14
 
 ```bash
 python -m venv .venv && source .venv/bin/activate
